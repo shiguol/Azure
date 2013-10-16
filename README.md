@@ -4,9 +4,10 @@ Azure
 iOS-Test
 
 Azure 项目使用 worksapce 进行子项目组织；
-Azure.workspace
-..Azure(application)
-..AzureModel(static library)
+
+	Azure.workspace
+	.. Azure(application)
+	.. AzureModel(static library)
 
 而项目对外部库的依赖使用 Cocopods 进行管理，较好地实现不同项目的依赖和
 包含问题；具体请查看 Podfile 的配置；
@@ -16,4 +17,3 @@ Azure.workspace
 置文件中；
 
 last update: 10/16/2013 14:28
-
